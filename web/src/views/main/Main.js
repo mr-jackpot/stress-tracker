@@ -1,5 +1,4 @@
 import './Main.css';
-import welcomeMessage from '../../components/welcome-message/welcomeMessage';
 import Summary from '../../components/summary/summary';
 import Footer from '../../components/footer/footer';
 import Header from '../../components/header/header';
