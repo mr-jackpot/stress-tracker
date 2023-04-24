@@ -1,0 +1,9 @@
+.data-breakdown {
+    display: inline-flex;
+    background-color: red;
+    min-width: 40vw;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    justify-content: center;
+    align-items: center;
+}
