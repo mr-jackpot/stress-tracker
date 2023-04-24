@@ -1,15 +1,11 @@
 .footer {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-
-  position: fixed;
-  left: 0;
-  bottom: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5rem;
   width: 100vw;
   min-height: 2vh;
   max-height: 5vh;
   background-color: lightgray;
   color: rgb(101, 99, 99);
-  text-align: center;
 }
