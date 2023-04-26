@@ -1,10 +1,12 @@
 .content-container {
     display: flex;
+    justify-content: space-between;
 }
 
 .summary-table {
     background-color: rgb(196, 193, 191);
     margin-left: 5rem;
+    min-width: 40vw;
 }
 
 .summary-table th, td {
