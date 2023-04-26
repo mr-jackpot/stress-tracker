@@ -1,9 +1,26 @@
 .data-breakdown {
     display: inline-flex;
-    background-color: red;
+    flex-flow: column nowrap;
+    background-color: rgb(196, 193, 191);
     min-width: 40vw;
-    margin-left: 5rem;
     margin-right: 5rem;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.data-breakdown.bad {
+    background-color: rgb(157, 87, 87);
+}
+
+.data-breakdown.fair {
+    background-color: rgb(150, 150, 98);
+}
+
+.data-breakdown.good {
+    background-color: rgb(104, 152, 104);
+}
+
+.title {
+    margin: 2rem;
+    font-size: large;
 }
