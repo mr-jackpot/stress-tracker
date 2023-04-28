@@ -1,0 +1,10 @@
+.welcomeMessage {
+     display: inline-flex;
+     min-height: 10vh;
+     min-width: 100vw;
+     text-align: center;
+     margin-top: 2rem;
+     margin-bottom: 2rem;
+     align-items: center;
+     justify-content: center;
+}

@@ -1,0 +1,64 @@
+.Main {
+    background-color: lightgray;
+}
+
+.Main.dark {
+    background-color: rgb(56, 58, 69);
+}
+
+p {
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    background-color: rgb(228, 228, 228);
+    min-height: 10vh;
+    max-height: 30vh;
+}
+
+.header.dark {
+    background-color: rgb(75, 71, 84);
+    color: rgb(150, 149, 160);
+}
+
+.header-title {
+    font-size: xxx-large;
+    display: inline-flex;
+    align-items: center;
+    margin-right: auto;
+    margin-left: 1rem;
+}
+
+.header-menu {
+    font-size: large;
+    display: inline-flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 2rem;
+    margin: 1rem 1rem 1rem 1rem;
+    min-width: 10rem;
+    border: thin;
+}
+
+.header-menu:hover{
+    background-color:lightgray;
+}
+
+.header-menu a {
+    margin: 0 auto;
+    text-decoration: none;
+    color: black;
+}
+
+.header-menu.dark {
+    background-color: rgb(56, 52, 75);
+}
+
+.header-menu.dark a {
+    color: rgb(150, 149, 160);
+}
+
+.header-menu.dark:hover {
+    background-color:rgb(72, 58, 103);
+}

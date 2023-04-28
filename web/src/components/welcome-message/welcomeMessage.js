@@ -5,7 +5,7 @@ class WelcomeMessage extends React.Component {
   render() {
     return (
       <div className="welcomeMessage">
-        <h2>Welcome back!</h2>
+        <p>Welcome back!</p>
       </div>
     );
   }

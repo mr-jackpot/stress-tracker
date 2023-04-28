@@ -1,0 +1,47 @@
+.content-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.summary-table {
+    margin-left: 5rem;
+    min-width: 40vw;
+}
+
+.summary-table th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    border-radius: 3px;
+    padding: 1rem;
+    font-weight: normal;
+}
+
+.summary-table table {
+    border-spacing: 0.5rem;
+}
+.summary-table th, td.week-heading {
+    background-color: rgb(129, 131, 129);
+    min-width: 5vw;
+    font-size: large;
+}
+
+.summary-table td.week-heading {
+    text-align: center;
+}
+
+.summary-table th.table-corner {
+    border: 0;
+    background-color: inherit;
+}
+
+.summary-table td.good{
+    background-color: rgba(5, 136, 5, 0.619);
+}
+
+.summary-table td.fair{
+    background-color: rgba(177, 199, 33, 0.619);
+}
+
+.summary-table td.bad{
+    background-color: rgba(187, 45, 45, 0.619);
+}
