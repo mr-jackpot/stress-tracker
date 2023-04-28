@@ -1,6 +1,5 @@
 .welcomeMessage {
      display: inline-flex;
-     background-color: grey;
      min-height: 10vh;
      min-width: 100vw;
      text-align: center;
