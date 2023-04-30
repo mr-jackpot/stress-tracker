@@ -8,16 +8,9 @@
     align-items: flex-start;
 }
 
-.data-breakdown.bad {
-    background-color: rgb(157, 87, 87);
-}
-
-.data-breakdown.fair {
-    background-color: rgb(150, 150, 98);
-}
-
-.data-breakdown.good {
-    background-color: rgb(104, 152, 104);
+.data-breakdown.dark {
+    background-color: rgb(75, 71, 84);
+    color:rgb(159, 155, 153)
 }
 
 .title {
