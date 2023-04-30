@@ -2,7 +2,7 @@ import "./Main.css";
 import Summary from "../../components/summary/summary";
 import Footer from "../../components/footer/footer";
 import WelcomeMessage from "../../components/welcome-message/welcomeMessage";
-import React, { useState, useEffect } from "react";
+import React, { useEffect } from "react";
 
 const Main = () => {
   const [theme, setTheme] = React.useState([]);
@@ -31,9 +31,9 @@ const Main = () => {
         <span className={`header-menu contact ${theme}`}><a href="http://www.google.com">Contact Us</a></span>
         <span onClick={handleThemeChange} className={`header-menu theme-switch ${theme}`}><a>Change Theme</a></span>
       </div>
-      <WelcomeMessage />
-      <Summary />
-      <Footer />
+      <WelcomeMessage theme={theme}/>
+      <Summary theme={theme}/>
+      <Footer theme={theme}/>
     </div>
   );
 };
