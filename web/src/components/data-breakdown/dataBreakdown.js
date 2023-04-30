@@ -3,7 +3,7 @@ import "./dataBreakdown.css";
 
 const DataBreakdown = (props) => {
   return (
-    <div className={`data-breakdown`}>
+    <div className={`data-breakdown ${props.theme}`}>
       {props.summaryData.loaded ? (
         <div className="title">
           Your score for {props.summaryData.month}{" "}
