@@ -3,6 +3,7 @@ import Summary from "../../components/summary/summary";
 import Footer from "../../components/footer/footer";
 import WelcomeMessage from "../../components/welcome-message/welcomeMessage";
 import React, { useEffect } from "react";
+import DataInput from "../../components/data-input/dataInput";
 
 const Main = () => {
   const [theme, setTheme] = React.useState([]);
@@ -33,6 +34,7 @@ const Main = () => {
       </div>
       <WelcomeMessage theme={theme}/>
       <Summary theme={theme}/>
+      <DataInput theme={theme}/>
       <Footer theme={theme}/>
     </div>
   );
