@@ -1,0 +1,78 @@
+.data-input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.data-input-item:not(.heading) {
+    box-shadow: 10px 10px 80px rgb(159, 156, 156);
+    min-height: 70vh;
+    min-width: 75vw;
+    max-height: 50vh;
+    max-width: 75vw;
+    padding: 1rem 1rem 1rem 1rem;
+}
+
+.data-input-item.heading {
+    font-size: xx-large;
+    font-style: italic;
+    align-self: flex-start;
+    margin: 0 0 4rem 2rem;
+}
+
+.data-input-item.score {
+    font-size: x-large;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+
+}
+
+.traffic-light-container {
+    display: flex;
+}
+
+.traffic-light-box {
+    background-color: grey;
+    min-width: 200px;
+    max-width: 200px;
+    min-height: 200px;
+    max-height: 200px;
+    margin: 5rem 5rem 5rem 5rem;
+    border-radius: 3000px;
+    border: 2px solid black;
+}
+
+.traffic-light-box:hover {
+    box-shadow: 10px 20px 20px rgba(0, 0, 0, 0.502);
+}
+
+.traffic-light-box.green {
+    background-color: green;
+}
+
+.traffic-light-box.amber {
+    background-color: orange;
+}
+
+.traffic-light-box.red {
+    background-color: red;
+}
+
+.submit-button {
+    margin-left: 41%;
+    margin-right: auto;
+    border: 1px solid black;
+    padding: 1rem 1rem 1rem 1rem;
+    min-width: 10rem;
+    text-align: center;
+}
+
+.submit-button:hover {
+    background-color: grey;
+}
+
+.data-input-item.blur {
+    filter: blur(5px);
+}
