@@ -12,6 +12,7 @@
     max-height: 50vh;
     max-width: 75vw;
     padding: 1rem 1rem 1rem 1rem;
+    font-size: x-large;
 }
 
 .data-input-item.heading {
@@ -22,11 +23,14 @@
 }
 
 .data-input-item.score {
-    font-size: x-large;
     display: flex;
     flex-flow: row wrap;
     align-content: center;
 
+}
+
+.data-input-item.feelings {
+    
 }
 
 .traffic-light-container {
@@ -46,6 +50,7 @@
 
 .traffic-light-box:hover {
     box-shadow: 10px 20px 20px rgba(0, 0, 0, 0.502);
+    cursor: pointer;
 }
 
 .traffic-light-box.green {
@@ -67,10 +72,12 @@
     padding: 1rem 1rem 1rem 1rem;
     min-width: 10rem;
     text-align: center;
+    user-select: none;
 }
 
 .submit-button:hover {
     background-color: grey;
+    cursor: pointer;
 }
 
 .data-input-item.blur {
