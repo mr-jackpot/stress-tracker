@@ -3,7 +3,6 @@ import TagIcon from "../tag-icon/tagIcon";
 import "./dataInput.css";
 
 const DataInput = (props) => {
-  const [blur, setBlur] = React.useState(["", "", "", ""]);
 
   return (
     <div className={`data-input-container ${props.theme}`}>
@@ -11,7 +10,7 @@ const DataInput = (props) => {
         {" "}
         It's time to enter your mood for the week . . .{" "}
       </div>
-      <div className={`data-input-item score ${blur[0]}`}>
+      <div className={`data-input-item score`}>
         <div>How do you feel?</div>
         <div className="traffic-light-container">
           <div className="traffic-light-box green"></div>
@@ -20,20 +19,22 @@ const DataInput = (props) => {
         </div>
         <div className={`submit-button`}>Submit</div>
       </div>
-      <div className={`data-input-item feelings ${blur[1]}`}>
+      <div className={`data-input-item feelings`}>
         <div> Add some feelings . . . </div>
         <div className="feelings-container">
           <TagIcon feeling="Shite" />
           <TagIcon feeling="Alright" />
           <TagIcon feeling="Flying" />
           <TagIcon feeling="Bullish" />
+          <TagIcon feeling="Stinker" />
+          <TagIcon feeling="Mid" />
         </div>
         <div className={`submit-button`}>Submit</div>
       </div>
-      <div className={`data-input-item notes ${blur[2]}`}>
+      <div className={`data-input-item notes`}>
         Would you like to add some custom notes?
       </div>
-      <div className={`data-input-item submit ${blur[3]}`}>
+      <div className={`data-input-item submit`}>
         Summary & submit
       </div>
     </div>
