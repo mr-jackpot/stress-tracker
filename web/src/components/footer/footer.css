@@ -9,3 +9,8 @@
   background-color: lightgray;
   color: rgb(101, 99, 99);
 }
+
+.footer.dark {
+  background-color: rgb(75, 71, 84);
+  color: rgb(131, 128, 128);
+}

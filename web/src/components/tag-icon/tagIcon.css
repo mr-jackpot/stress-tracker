@@ -1,0 +1,24 @@
+.tag-icon {
+    background-color: darkgrey;
+    max-width: fit-content;
+    padding: 0.5rem;
+    font-size:large;
+    margin: 1rem;
+    border-radius: 30px;
+    user-select: none;
+}
+
+.tag-icon:hover {
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.502);
+    cursor: pointer;
+}
+
+.tag-icon.selected {
+    background-color: green;
+}
+
+.tag-desc {
+    color: black;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
