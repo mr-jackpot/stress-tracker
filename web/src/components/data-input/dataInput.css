@@ -28,7 +28,14 @@
 .data-input-item.feelings {
     display: flex;
     flex-flow: column nowrap;
-    align-content: center;   
+    align-content: center;
+    height: 40vh;  
+}
+
+.data-input-item.notes {
+    display: flex;
+    flex-flow: column nowrap;
+    align-content: center;
 }
 
 .traffic-light-container {
@@ -70,6 +77,18 @@
     display: flex;
     flex-flow: row wrap;
     gap: 50px;
+}
+
+#custom-notes-input {
+    margin-top: 2rem;
+    width: 70%;
+    height: 60%;
+    resize: none;
+    align-self: center;
+    box-shadow: 5px 5px 40px rgb(159, 156, 156);
+    background-color: inherit;
+    font-size: 1rem;
+    font-family: inherit;
 }
 
 .submit-button {
