@@ -3,7 +3,6 @@ import TagIcon from "../tag-icon/tagIcon";
 import "./dataInput.css";
 
 const DataInput = (props) => {
-
   return (
     <div className={`data-input-container ${props.theme}`}>
       <div className={`data-input-item heading`}>
@@ -33,10 +32,10 @@ const DataInput = (props) => {
       </div>
       <div className={`data-input-item notes`}>
         Would you like to add some custom notes?
+        <textarea id="custom-notes-input" type="text" />
+        <div className={`submit-button`}>Submit</div>
       </div>
-      <div className={`data-input-item submit`}>
-        Summary & submit
-      </div>
+      <div className={`data-input-item submit`}>Summary & submit</div>
     </div>
   );
 };
