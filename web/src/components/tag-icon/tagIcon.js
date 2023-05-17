@@ -2,13 +2,15 @@ import React from "react";
 import "./tagIcon.css";
 
 const TagIcon = (props) => {
-  const [selected, setSelected] = React.useState([]);
+  const [selected, setSelected] = React.useState();
 
   const handleSelect = () => {
     if (selected !== "selected") {
       setSelected("selected");
+      props.sendValue(props.feeling)
     } else {
       setSelected("");
+      props.removeValue(props.feeling)
     }
   };
 
