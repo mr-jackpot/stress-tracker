@@ -38,6 +38,12 @@
     align-content: center;
 }
 
+.data-input-item.submit {
+    display: flex;
+    flex-flow: column nowrap;
+    align-content: center;
+}
+
 .traffic-light-container {
     display: flex;
     flex-flow: row wrap;
@@ -103,11 +109,17 @@
     align-self: center;
 }
 
+.navAnchor {
+    text-decoration: none;
+    color: black;
+}
+
 .submit-button:hover {
     background-color: grey;
     cursor: pointer;
 }
 
-.data-input-item.blur {
+.data-input-item.blur * {
     filter: blur(5px);
+    pointer-events: none;
 }
