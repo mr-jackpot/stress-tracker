@@ -26,7 +26,7 @@ const Main = () => {
   }
 
   return (
-    <div className={`Main ${theme}`}>
+    <div className={`Main ${theme}`} id="navToMain">
       <div className={`header ${theme}`}>
         <span className={`header-title ${theme}`}>Stress Management</span>
         <span className={`header-menu contact ${theme}`}><a href="http://www.google.com">Contact Us</a></span>

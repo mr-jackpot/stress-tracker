@@ -62,3 +62,7 @@ p {
 .header-menu.dark:hover {
     background-color:rgb(72, 58, 103);
 }
+
+html {
+    scroll-behavior: smooth;
+}
