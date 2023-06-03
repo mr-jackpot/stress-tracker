@@ -5,6 +5,7 @@ const TagIcon = (props) => {
   const [selected, setSelected] = React.useState();
 
   const handleSelect = () => {
+      if (props.noclick) return;
     if (selected !== "selected") {
       setSelected("selected");
       props.sendValue(props.feeling)
@@ -15,12 +16,9 @@ const TagIcon = (props) => {
   };
 
   return (
-    <div
-      className={`tag-icon ${props.theme} ${selected}`}
-      onClick={handleSelect}
-    >
-      <p className="tag-desc">{props.feeling}</p>
-    </div>
+      <div className={`tag-icon ${props.theme} ${selected}`} onClick={handleSelect}>
+          <p className="tag-desc">{props.feeling}</p>
+      </div>
   );
 };
 
