@@ -3,10 +3,11 @@
      min-height: 10vh;
      min-width: 100vw;
      text-align: center;
-     margin-top: 2rem;
-     margin-bottom: 2rem;
+     margin-top: 1rem;
+     margin-bottom: 1rem;
      align-items: center;
      justify-content: center;
+     font-size: xx-large;
 }
 
 .welcomeMessage.dark {

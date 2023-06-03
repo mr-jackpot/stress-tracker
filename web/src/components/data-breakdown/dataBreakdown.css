@@ -8,12 +8,29 @@
     align-items: flex-start;
 }
 
+.title {
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+.score-message {
+    font-size: xx-large;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.holding-message {
+    margin-top: 40%;
+    margin-bottom: auto;
+    align-self: center;
+}
+
 .data-breakdown.dark {
     background-color: rgb(75, 71, 84);
     color:rgb(159, 155, 153)
 }
 
-.title {
+.message-container {
     margin: 2rem;
     font-size: large;
 }
