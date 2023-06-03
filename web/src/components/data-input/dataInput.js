@@ -106,7 +106,7 @@ const DataInput = (props) => {
             onClick={() => handleSubmit(2)}>Submit</div>
       </div>
       <div className={`data-input-item notes ${notesBlur}`}>
-        Would you like to add some custom notes?
+          <div> Would you like to add some custom notes? </div>
         <textarea
           id="custom-notes-input"
           type="text"
@@ -117,7 +117,7 @@ const DataInput = (props) => {
             onClick={() => handleSubmit(3)}>Submit</div>
       </div>
       <div className={`data-input-item submit ${submitBlur}`}>
-          Summary & submit <br />
+          <div>Summary & submit</div>
           {trafficLight} <br />
           {feelings} <br />
           {note}

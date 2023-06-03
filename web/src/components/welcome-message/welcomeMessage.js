@@ -4,7 +4,7 @@ import "./welcomeMessage.css";
 const WelcomeMessage = (props) => {
   return (
     <div className={`welcomeMessage ${props.theme}`}>
-      <p>Welcome back!</p>
+      <p>Welcome back Adam!</p>
     </div>
   );
 };
