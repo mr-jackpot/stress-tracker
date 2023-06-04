@@ -1,6 +1,7 @@
 import React from "react";
 import TagIcon from "../tag-icon/tagIcon";
 import "./dataInput.css";
+import TrafficLight from "../traffic-light/trafficLight";
 
 const DataInput = (props) => {
   const [trafficLight, setTrafficLight] = React.useState();
@@ -52,18 +53,9 @@ const DataInput = (props) => {
       <div className={`data-input-item score ${trafficLightBlur}`}>
         <div>How do you feel?</div>
         <div className="traffic-light-container">
-          <div
-            className="traffic-light-box green"
-            onClick={() => setTrafficLight("green")}
-          ></div>
-          <div
-            className="traffic-light-box amber"
-            onClick={() => setTrafficLight("amber")}
-          ></div>
-          <div
-            className="traffic-light-box red"
-            onClick={() => setTrafficLight("red")}
-          ></div>
+            <TrafficLight color={"green"} set={setTrafficLight}/>
+            <TrafficLight color={"amber"} set={setTrafficLight}/>
+            <TrafficLight color={"red"} set={setTrafficLight}/>
         </div>
         <div className={`submit-button`}
             onClick={() => handleSubmit(1)}>Submit</div>
