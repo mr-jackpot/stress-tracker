@@ -53,32 +53,6 @@
     gap: 150px;
 }
 
-.traffic-light-box {
-    height: 150px;
-    width: 150px;
-    background-color: grey;
-    border-radius: 50%;
-    border: 2px solid black;
-    flex-shrink: 3;
-}
-
-.traffic-light-box:hover {
-    box-shadow: 10px 20px 20px rgba(0, 0, 0, 0.502);
-    cursor: pointer;
-}
-
-.traffic-light-box.green {
-    background-color: green;
-}
-
-.traffic-light-box.amber {
-    background-color: orange;
-}
-
-.traffic-light-box.red {
-    background-color: red;
-}
-
 .feelings-container {
     display: flex;
     flex-flow: row wrap;
