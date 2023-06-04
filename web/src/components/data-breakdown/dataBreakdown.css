@@ -3,6 +3,7 @@
     flex-flow: column nowrap;
     background-color: rgb(196, 193, 191);
     max-width: 40vw;
+    width: 40vw;
     margin-right: 5rem;
     justify-content: flex-start;
     align-items: flex-start;

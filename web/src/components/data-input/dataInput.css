@@ -29,7 +29,7 @@
     display: flex;
     flex-flow: column nowrap;
     align-content: center;
-    height: 40vh;  
+    height: 60vh;
 }
 
 .data-input-item.notes {
@@ -42,6 +42,7 @@
     display: flex;
     flex-flow: column nowrap;
     align-content: center;
+    height: 70vh;
 }
 
 .traffic-light-container {
@@ -51,32 +52,6 @@
     margin-top: 50px;
     margin-bottom: auto;
     gap: 150px;
-}
-
-.traffic-light-box {
-    height: 150px;
-    width: 150px;
-    background-color: grey;
-    border-radius: 50%;
-    border: 2px solid black;
-    flex-shrink: 3;
-}
-
-.traffic-light-box:hover {
-    box-shadow: 10px 20px 20px rgba(0, 0, 0, 0.502);
-    cursor: pointer;
-}
-
-.traffic-light-box.green {
-    background-color: green;
-}
-
-.traffic-light-box.amber {
-    background-color: orange;
-}
-
-.traffic-light-box.red {
-    background-color: red;
 }
 
 .feelings-container {
@@ -120,6 +95,6 @@
 }
 
 .data-input-item.blur * {
-    filter: blur(5px);
-    pointer-events: none;
+        filter: blur(5px);
+        pointer-events: none;
 }
