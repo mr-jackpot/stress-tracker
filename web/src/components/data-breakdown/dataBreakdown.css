@@ -2,7 +2,7 @@
     display: inline-flex;
     flex-flow: column nowrap;
     background-color: rgb(196, 193, 191);
-    min-width: 40vw;
+    max-width: 40vw;
     margin-right: 5rem;
     justify-content: flex-start;
     align-items: flex-start;
@@ -23,6 +23,11 @@
     margin-top: 40%;
     margin-bottom: auto;
     align-self: center;
+}
+
+.tag-container {
+    display: flex;
+    flex-flow: row wrap;
 }
 
 .data-breakdown.dark {
