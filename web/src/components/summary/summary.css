@@ -4,25 +4,25 @@
 }
 
 .summary-table {
-    margin-left: 5rem;
-    min-width: 40vw;
+    margin-left: 1rem;
+    width: 50vw;
 }
 
 .summary-table th, td {
     border: 1px solid black;
     border-collapse: collapse;
-    border-radius: 3px;
-    padding: 1rem;
+    padding-top: 30px;
+    padding-bottom: 30px;
     font-weight: normal;
+    font-size: small;
 }
 
 .summary-table table {
-    border-spacing: 0.5rem;
+    border-spacing: 1rem;
 }
 .summary-table th, td.week-heading {
     background-color: rgb(129, 131, 129);
-    min-width: 5vw;
-    font-size: large;
+    width: 100px;
 }
 
 .summary-table td.week-heading {

@@ -2,10 +2,32 @@
     display: inline-flex;
     flex-flow: column nowrap;
     background-color: rgb(196, 193, 191);
-    min-width: 40vw;
+    max-width: 40vw;
     margin-right: 5rem;
     justify-content: flex-start;
     align-items: flex-start;
+}
+
+.title {
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+.score-message {
+    font-size: xx-large;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.holding-message {
+    margin-top: 40%;
+    margin-bottom: auto;
+    align-self: center;
+}
+
+.tag-container {
+    display: flex;
+    flex-flow: row wrap;
 }
 
 .data-breakdown.dark {
@@ -13,7 +35,7 @@
     color:rgb(159, 155, 153)
 }
 
-.title {
+.message-container {
     margin: 2rem;
     font-size: large;
 }
